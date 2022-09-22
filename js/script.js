@@ -11,7 +11,7 @@ adv.forEach(item => {
 });
 
 genre.textContent = 'драма';
-poster.style.backgroundImage = "url('img/bg.jpg')";
+poster.style.backgroundImage = "url('../img/bg.jpg')";
 movieList.textContent = '';
 
 const movieDB = {
@@ -27,7 +27,7 @@ const movieDB = {
 movieDB.movies.sort();
 movieDB.movies.forEach((film, i) => {
     movieList.innerHTML += `
-    <li class="promo__interactive-item">${film} ${i}
+    <li class="promo__interactive-item">${film} ${i + 1}
     <div class="delete"></div>
 </li>
     `
