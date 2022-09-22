@@ -11,7 +11,7 @@ adv.forEach(item => {
 });
 
 genre.textContent = 'драма';
-poster.style.backgroundImage = 'url("../img/bg.jpg")';
+poster.style.backgroundImage = 'url("img/bg.jpg")';
 movieList.textContent = '';
 
 const movieDB = {
